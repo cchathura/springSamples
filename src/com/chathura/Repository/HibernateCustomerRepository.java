@@ -3,8 +3,10 @@ package com.chathura.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.chathura.model.Customer;
+import org.springframework.stereotype.Repository;
 
+import com.chathura.model.Customer;
+@Repository("customerRepository")
 public class HibernateCustomerRepository implements CustomerRepository {
 
 	/* (non-Javadoc)
